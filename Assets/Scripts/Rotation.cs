@@ -5,7 +5,7 @@ public class Rotation : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
-    void Start()
+    private void Start()
     {
         StartCoroutine(Rotate());
     }

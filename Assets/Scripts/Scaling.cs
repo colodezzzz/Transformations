@@ -10,7 +10,7 @@ public class Scaling : MonoBehaviour
     private float _currentScale;
     private float _scaleFactor;
 
-    void Start()
+    private void Start()
     {
         _minScale = transform.localScale.x;
         _currentScale = _minScale;

@@ -9,7 +9,7 @@ public class Movement : MonoBehaviour
     private float _direction;
     private Vector3 _startPosition;
 
-    void Start()
+    private void Start()
     {
         _startPosition = transform.position;
         _direction = 1f;
